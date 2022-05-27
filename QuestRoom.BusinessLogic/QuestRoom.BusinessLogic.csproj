@@ -1,20 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\QuestRoom.BusinessLogic\QuestRoom.BusinessLogic.csproj" />
     <ProjectReference Include="..\QuestRoom.DataAccess\QuestRoom.DataAccess.csproj" />
-    <ProjectReference Include="..\QuestRoom.ViewModel\QuestRoom.ViewModel.csproj" />
+    <ProjectReference Include="..\QuestRoom.Interfaces\QuestRoom.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

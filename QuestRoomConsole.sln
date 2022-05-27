@@ -5,6 +5,18 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestRoomConsole", "QuestRoomConsole\QuestRoomConsole.csproj", "{E91B1429-D74C-47AF-82B1-D742640977EA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestRoom.BusinessLogic", "QuestRoom.BusinessLogic\QuestRoom.BusinessLogic.csproj", "{5F4820B1-22C9-44F3-BDFE-B6F258F67D43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestRoom.Common", "QuestRoom.Common\QuestRoom.Common.csproj", "{1B0FE0CE-989A-4D1B-BE7A-6DE5D24829DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestRoom.DataAccess", "QuestRoom.DataAccess\QuestRoom.DataAccess.csproj", "{18935662-72E2-4B62-8EB2-74B9F2D4EDA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestRoom.DomainModel", "QuestRoom.DomainModel\QuestRoom.DomainModel.csproj", "{2BD1722A-7A2C-4BE9-9DA0-62D66B5DC5DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestRoom.Interfaces", "QuestRoom.Interfaces\QuestRoom.Interfaces.csproj", "{5CC730E6-4D11-45A2-AD6B-4DCBA74EEDBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestRoom.ViewModel", "QuestRoom.ViewModel\QuestRoom.ViewModel.csproj", "{E4F95722-2BE0-4E1E-9200-9022EC815A30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{E91B1429-D74C-47AF-82B1-D742640977EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E91B1429-D74C-47AF-82B1-D742640977EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E91B1429-D74C-47AF-82B1-D742640977EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4820B1-22C9-44F3-BDFE-B6F258F67D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4820B1-22C9-44F3-BDFE-B6F258F67D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4820B1-22C9-44F3-BDFE-B6F258F67D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4820B1-22C9-44F3-BDFE-B6F258F67D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0FE0CE-989A-4D1B-BE7A-6DE5D24829DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0FE0CE-989A-4D1B-BE7A-6DE5D24829DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0FE0CE-989A-4D1B-BE7A-6DE5D24829DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0FE0CE-989A-4D1B-BE7A-6DE5D24829DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18935662-72E2-4B62-8EB2-74B9F2D4EDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18935662-72E2-4B62-8EB2-74B9F2D4EDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18935662-72E2-4B62-8EB2-74B9F2D4EDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18935662-72E2-4B62-8EB2-74B9F2D4EDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD1722A-7A2C-4BE9-9DA0-62D66B5DC5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD1722A-7A2C-4BE9-9DA0-62D66B5DC5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD1722A-7A2C-4BE9-9DA0-62D66B5DC5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD1722A-7A2C-4BE9-9DA0-62D66B5DC5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC730E6-4D11-45A2-AD6B-4DCBA74EEDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC730E6-4D11-45A2-AD6B-4DCBA74EEDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC730E6-4D11-45A2-AD6B-4DCBA74EEDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC730E6-4D11-45A2-AD6B-4DCBA74EEDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F95722-2BE0-4E1E-9200-9022EC815A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F95722-2BE0-4E1E-9200-9022EC815A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F95722-2BE0-4E1E-9200-9022EC815A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F95722-2BE0-4E1E-9200-9022EC815A30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
